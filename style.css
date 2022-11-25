@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size:1.5em;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.control{
+    border:none;
+    outline:none;
+    border-radius: 20px;
+}
+.control:active{
+    transform: scale(0.98);
+}
+.record{
+    color:#fff;
+    background: red;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.record:hover{
+    background: rgb(255, 62, 62);
+}
+.pause{
+    color:#fff;
+    background: blue;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.pause:hover{
+    background: rgb(62, 62, 255);
+}
+.title{
+    color:rgb(0, 0, 0);
+    background: #40E0D0;
+    margin:0;
+    padding: 20px;
+    text-align: center;
+    width: 100vw;
+}
